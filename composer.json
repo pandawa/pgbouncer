@@ -1,0 +1,36 @@
+{
+    "name": "pandawa/pgbouncer",
+    "description": "PgBouncer support for pandawa",
+    "keywords": [
+        "laravel",
+        "pandawa",
+        "pgbouncer"
+    ],
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Iqbal Maulana",
+            "email": "iq.bluejack@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "pandawa/pandawa": "^4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pandawa\\PgBouncer\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Pandawa\\PgBouncer\\PandawaPgBouncerModule"
+            ]
+        }
+    }
+}
