@@ -16,7 +16,7 @@
     ],
     "require": {
         "php": ">=8.0",
-        "pandawa/pandawa": "^4.1"
+        "pandawa/pandawa": "^4.0"
     },
     "autoload": {
         "psr-4": {
