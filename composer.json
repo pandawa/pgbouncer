@@ -17,7 +17,7 @@
         }
     ],
     "require": {
-        "php": ">=8.0",
+        "php": ">=8.1",
         "ext-pdo": "*",
         "pandawa/foundation-bundle": "^5.0",
         "pandawa/database-bundle": "^5.0"
